@@ -1,0 +1,14 @@
+.clangd
+.vscode/
+.cache/
+
+build/
+guide.md
+
+*.out
+*.exe
+
+bin/
+include/
+lib/
+share/
