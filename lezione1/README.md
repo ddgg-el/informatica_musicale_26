@@ -7,7 +7,7 @@ make
 ```
 che salverà tutti gli eseguibili nella cartella `bin`, che verrà creata in questa cartella.
 
-Tutti i programma dovrenno quindi essere lanciati con il comando:
+Tutti i programmi dovranno quindi essere lanciati con il comando:
 ```bash
 % ./bin/<nome-eseguibile>
 ```
