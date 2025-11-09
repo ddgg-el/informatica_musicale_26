@@ -42,9 +42,6 @@ int main()
 		inserito. Prova: "random_shuffle()" - una funzione
 		deprecata ma che dovrebbe funzionare comunque 
 	 */
-	 
-	 random_shuffle(nome.begin(), nome.end());
-	 cout << "L'anagramma è " << nome << endl;
 
 	return 0;
 }
