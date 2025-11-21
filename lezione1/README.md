@@ -2,8 +2,8 @@ Lezione 1
 ---------
 
 Per compilare tutti gli esempi contenuti in questa cartella si può usare il comando:
-```zsh
-make
+```bash
+% make
 ```
 che salverà tutti gli eseguibili nella cartella `bin`, che verrà creata in questa cartella.
 
@@ -19,7 +19,7 @@ Eventuali miglioramenti ai programmi, proposti a lezione come esercizio, sono de
 Per prima cosa è importante ricordare che per definire una funzione generica, il compilatore deve sapere che **tipo** di variabile restituirà la funzione, e main **DEVE** restituire un numero intero quindi un `int`. La sintassi per completare la definizione di una funzione è simile a quella di Javascript:
 ```c++
 int main(/* eventuali argomenti */){
-	// i corpo della funzione
+	// corpo della funzione
 	return 0
 }
 ```
@@ -33,13 +33,13 @@ using namespace std;
 Tuttavia, questa pratica è generalmente sconsigliata in progetti grandi perché può portare a conflitti di nomi.
 
 ### Le stringhe ed i caratteri
-> vedi file `start.cpp` dove si utilizzano anche le funzioni `cout`, `cin` e `printf`
+> vedi file [`start.cpp`](start.cpp) dove si utilizzano anche le funzioni `cout`, `cin` e `printf`
 
 Un singolo carattere può essere identificato da c++ con la definizione di una variabile `char`.
 Nato dal linguaggio C, C++ può considerare un array di caratteri come una "stringa" (parola - frase), ma è più moderno e sicuramente più diffuso l'utilizzo di `std::string`, una *struttura* informatica più complessa di una semplice tipologia di variabile `char`. Questa infatti si adatta dinamicamente alla lunghezza del testo e fornisce metodi utili per la manipolazione delle stringhe.
 
 ### I numeri
-> vedi file `numbers.cpp` si trova anche un esempio della condizione `if`
+> vedi file [`numbers.cpp`](numbers.cpp) si trova anche un esempio della condizione `if`
 
 Esistono diverse tipologie di variabili per rappresentare i numeri.
 Le più comuni sono: 
@@ -54,7 +54,7 @@ Queste tipologie si differenziano principalmente per:
 - Intervallo di valori: int può rappresentare numeri da -2³¹ a 2³¹-1, mentre i tipi floating point hanno intervalli molto più ampi
 
  #### Dimensione delle variabile
-> vedi file `sizeof.cpp`
+> vedi file [`sizeof.cpp`](sizeof.cpp)
 
 Per scoprire la dimensione di una variabile, quindi quanto spazio occuperà nella memoria si può usare la funzione `sizeof`.
 Vedremo che entrambe le variabili `int` e `float` restituiranno un valore di 4 (4 bytes - 32bit) mentre `double` 8 (64 bit).
